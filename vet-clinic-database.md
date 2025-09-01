@@ -101,9 +101,3 @@ Attach the screenshot in your **Pull Request description**.
 
 This project is [MIT](./LICENSE) licensed.
 
-```
-
----
-
-Would you like me to also **add step-by-step setup instructions** (e.g., `psql` commands to run schema.sql and data.sql) so that someone can replicate this project locally without guessing?
-```
