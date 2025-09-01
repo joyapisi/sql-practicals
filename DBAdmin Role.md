@@ -1,4 +1,4 @@
-````markdown
+
 # 🗄️ Library Management Database (DBA Project)
 
 This project sets up and manages a **library management system database**.  
@@ -112,8 +112,6 @@ ALTER TABLE borrow_records ADD CONSTRAINT unique_borrow UNIQUE (member_id, book_
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-```
 
 
 👉 See the difference?  
