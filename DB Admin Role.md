@@ -1,7 +1,7 @@
 
-# 🗄️ Library Management Database (DBA Project)
+# 🗄️ Bookstore Management Database (DBA Project)
 
-This project sets up and manages a **library management system database**.  
+This project sets up and manages a **Bookstore management system database**.  
 It focuses on **database administration tasks** such as schema design, indexing, user roles, permissions, and backups.
 
 ---
@@ -84,10 +84,10 @@ CREATE INDEX idx_books_title ON books(title);
 CREATE INDEX idx_members_email ON members(email);
 
 -- 4. Backup (PostgreSQL command line example)
--- pg_dump bookstore_db > library_backup.sql;
+-- pg_dump bookstore_db > Bookstore_backup.sql;
 
 -- 5. Restore backup
--- psql bookstore_db < library_backup.sql;
+-- psql bookstore_db < Bookstore_backup.sql;
 
 -- 6. Monitor (show current connections)
 SELECT * FROM pg_stat_activity;
