@@ -20,10 +20,10 @@ This repository includes files with SQL for database administration tasks:
 
 ```sql
 -- Create database
-CREATE DATABASE library_db;
+CREATE DATABASE bookstore_db;
 
 -- Switch to database
-\c library_db;
+\c bookstore_db;
 
 -- Create tables
 CREATE TABLE books (
@@ -75,7 +75,7 @@ CREATE ROLE librarian WITH LOGIN PASSWORD 'securePass123';
 CREATE ROLE assistant WITH LOGIN PASSWORD 'assistantPass';
 
 -- 2. Grant permissions
-GRANT CONNECT ON DATABASE library_db TO librarian;
+GRANT CONNECT ON DATABASE bookstore_db TO librarian;
 GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public TO assistant;
 GRANT SELECT, INSERT, UPDATE ON books, members TO assistant;
 
@@ -84,10 +84,10 @@ CREATE INDEX idx_books_title ON books(title);
 CREATE INDEX idx_members_email ON members(email);
 
 -- 4. Backup (PostgreSQL command line example)
--- pg_dump library_db > library_backup.sql;
+-- pg_dump bookstore_db > library_backup.sql;
 
 -- 5. Restore backup
--- psql library_db < library_backup.sql;
+-- psql bookstore_db < library_backup.sql;
 
 -- 6. Monitor (show current connections)
 SELECT * FROM pg_stat_activity;
@@ -116,7 +116,7 @@ This project is [MIT](./LICENSE) licensed.
 
 👉 See the difference?  
 - The **vet_clinic** (data analyst) project was all about **queries to answer questions**.  
-- The **library_db** (DB Admin) project is about **setup, roles, indexing, security, and backups**.  
+- The **bookstore_db** (DB Admin) project is about **setup, roles, indexing, security, and backups**.  
 
 Would you like me to **add example admin queries** (like checking database size, vacuuming, or analyzing query performance) to make it even more realistic for a DBA role?
 ```
