@@ -1,12 +1,12 @@
-Absolutely! Here's how you can convert this **Library Management System (DBA-focused)** project into a **viable take-home assignment for interview candidates**, especially for a **Database Administrator (DBA)** or **Backend Engineer with DBA responsibilities**.
+Absolutely! Here's how you can convert this **Bookstore Management System (DBA-focused)** project into a **viable take-home assignment for interview candidates**, especially for a **Database Administrator (DBA)** or **Backend Engineer with DBA responsibilities**.
 
 ---
 
-## ✅ Interview Take-Home Assignment: Library Management System (DBA Focus)
+## ✅ Interview Take-Home Assignment: Bookstore Management System (DBA Focus)
 
 ### 🎯 Goal:
 
-Design and manage a **PostgreSQL** database for a simple library system. Focus on **schema design**, **user and role management**, **indexing**, **data integrity**, and **performance optimization**.
+Design and manage a **PostgreSQL** database for a simple Bookstore system. Focus on **schema design**, **user and role management**, **indexing**, **data integrity**, and **performance optimization**.
 
 ---
 
@@ -14,7 +14,7 @@ Design and manage a **PostgreSQL** database for a simple library system. Focus o
 
 ### 📌 Part 1: Schema Design
 
-> **Task 1:** Create a PostgreSQL database named `library_db`.
+> **Task 1:** Create a PostgreSQL database named `bookstore_db`.
 
 > **Task 2:** Create the following tables with appropriate data types and constraints:
 
@@ -108,7 +108,7 @@ Design and manage a **PostgreSQL** database for a simple library system. Focus o
 
 1. What happens if you update or delete a member that has borrow records? How would you handle that?
 2. How would you schedule regular backups using PostgreSQL tools or cron jobs?
-3. If this library grew to millions of records, how would you optimize performance further?
+3. If this Bookstore grew to millions of records, how would you optimize performance further?
 
 ---
 
