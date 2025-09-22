@@ -56,13 +56,16 @@ CREATE TABLE borrow_records (
 
 ```sql
 INSERT INTO books (title, author, published_year) VALUES
-('1984', 'George Orwell', 1949),
-('To Kill a Mockingbird', 'Harper Lee', 1960),
-('The Great Gatsby', 'F. Scott Fitzgerald', 1925);
+('Matilda', 'Roald Dahl', 1949),
+('Things Fall Apart','Chinua Achebe' , 1960),
+('The Great Gatsby', 'Ngũgĩ wa Thiong\o', 1925);
 
 INSERT INTO members (full_name, email) VALUES
-('Alice Johnson', 'alice@example.com'),
-('Bob Smith', 'bob@example.com');
+('Wambua Kris', 'alice@example.com'),
+('Abdelrahma Sila', 'bob@example.com');
+
+INSERT INTO borrow_records (member_id, book_id, borrow_date, return_date) VALUES
+etc....
 ```
 
 ---
