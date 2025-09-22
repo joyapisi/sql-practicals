@@ -1,7 +1,3 @@
-Absolutely! Here's how you can convert this **Bookstore Management System (DBA-focused)** project into a **viable take-home assignment for interview candidates**, especially for a **Database Administrator (DBA)** or **Backend Engineer with DBA responsibilities**.
-
----
-
 ## ✅ Interview Take-Home Assignment: Bookstore Management System (DBA Focus)
 
 ### 🎯 Goal:
